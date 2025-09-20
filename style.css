@@ -30,6 +30,7 @@ body {
     color: var(--text);
 }
 
+
 img {
     max-width: 100%;
     display: block
@@ -88,20 +89,25 @@ a {
 
 .btn.tiny {
     padding: 8px 14px;
-    font-size: .85rem
+    font-size: .95rem
 }
 
-
+.theme-btn{
+    margin-right: 50px;
+    padding: 3px;
+    font-size: 1.5rem; border-radius: 50%;
+}
 /* NAV */
-.nav-wrap {
+.nav-wrap {width: 100%;
     position: sticky;
     top: -80px;
     z-index: 50;
     background: linear-gradient(#0e0f14cc, #0e0f14cc)
 }
 
-.nav {
+.nav {width: 100%; 
     display: flex;
+    
     align-items: center;
     gap: 20px;
     justify-content: space-between;
@@ -123,16 +129,17 @@ nav a {
   transition: color 0.5s ease;
 }
 
+
 /* Dark Theme Navbar */
 body.dark nav {
-  background: #1a1a1a;
+     background: linear-gradient(#0e0f14cc, #0e0f14cc)
 }
 
 body.dark nav a {
   color: aliceblue;   /* Light shade for dark background */
 }
 
-.brand {
+.brand {padding-left: 35px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -290,7 +297,7 @@ body.dark nav a {
     transform: scale(1.06)
 }
 
-.project-grid .thumb img {
+.project-grid .thumb img {height: 230px;
     transition: transform .5s ease
 }
 

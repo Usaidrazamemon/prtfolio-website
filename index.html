@@ -1,166 +1,220 @@
 <!DOCTYPE html>
-<html lang="en"></html>
-<head>
-    <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Sakina Memon — Web Developer</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-<!-- NAVBAR -->
-<header class="nav-wrap">
-<nav class="container nav">
-<a href="#home" class="brand">
-<span class="dot"><img src="imge/sak log.png" alt=""></span>
-<span class="brand-text">sakina <b>memon</b></span>
-</a>
-<ul class="links">
-<li><a href="#home">home</a></li>
-<li><a href="#about">about</a></li>
-<li><a href="#services">services</a></li>
-<li><a href="#projects">projects</a></li>
-<li><a href="#skills">skills</a></li>
-<li><a href="https://www.figma.com/proto/wOUAYwQP7rv9GbfborZpdM?node-id=0-1&t=tfYdjjUZBl2jvIKg-6">contact</a></li>
-</ul>
-<a href="#contact" class="btn hire">Hire me</a>
-<button aria-label="menu" class="menu-btn"><span></span><span></span><span></span></button>
-<button id="theme-toggle" class="theme-btn">🌙</button>
-</nav>
-</header>
+<html lang="en">
 
-
-<main id="home">
-<!-- ABOUT / HERO -->
-<section id="about" class="section about container">
-<div class="about-text">
-<h1 class="title">About</h1>
-<p>
-Hi, I'm <b>Sakina Memon</b> — a passionate Web Developer dedicated to creating modern, responsive and visually engaging
-websites. I blend clean code with creative design to deliver seamless user experiences. I focus on building fast,
-functional and attractive digital products that bring ideas to life and leave a lasting impact.
-</p>
-<div class="about-cta">
-<a class="btn primary" href="#projects">See Projects</a>
-<a class="btn ghost" href="#contact">Let's Talk</a>
-</div>
-</div>
-<div class="about-media">
-<div class="avatar-wrap">
-<!-- Replace src with your own image -->
-<img class="about-pic" src="imge/sakina logo.png" alt="Sakina portrait" />
-<span class="ring"></span>
-</div>
-</div>
-</section>
-
-
-<!-- SERVICES -->
-<section id="services" class="section services container">
-<h2 class="title center">Services</h2>
-<div class="grid cards-3">
-<article class="card service">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"/>
-<h3>SPA / Front‑End</h3>
-<p>Modern, responsive React front‑ends with reusable components, state management and API integration.</p>
-</article>
-<article class="card service">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"/>
-<h3>UI / UX & Figma</h3>
-<p>Wireframes, design systems and prototypes in Figma. Pixel‑perfect implementation with accessibility in mind.</p>
-</article>
-<article class="card service">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node"/>
-<h3>Web Apps</h3>
-<p>Full‑stack web apps with Node/Express, clean APIs, auth and deployment on Netlify / Vercel.</p>
-</article>
-</div>
-</section>
-
-
-<!-- PROJECTS -->
-<section id="projects" class="section projects container">
-<h2 class="title center">Projects</h2>
-<div class="grid cards-3 project-grid">
-<!-- Repeatable project card -->
- <article class="card project">
-<div class="thumb"><img src="https://picsum.photos/seed/p2/600/400" alt="project 2"/></div>
-<h3>Project one</h3>
-<p>Dashboard UI with charts and dark mode. Built with React + REST APIs.</p>
-<a class="btn tiny" href="#">Live</a>
-</article>
-<article class="card project">
-<div class="thumb"><img src="https://picsum.photos/seed/p2/600/400" alt="project 2"/></div>
-<h3>Project Two</h3>
-<p>Dashboard UI with charts and dark mode. Built with React + REST APIs.</p>
-<a class="btn tiny" href="#">Live</a>
-</article>
-<article class="card project">
-<div class="thumb"><img src="https://picsum.photos/seed/p3/600/400" alt="project 3"/></div>
-<h3>Project Three</h3>
-<p>E‑commerce concept with smooth page transitions and cart logic.</p>
-<a class="btn tiny" href="#">Live</a>
-</article>
-</div>
-</section>
-
-
-<!-- SKILLS -->
-<section id="skills" class="section skills container">
-<h2 class="title center">Skills</h2>
-<div class="skills-row">
-<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="HTML"/><span>HTML5</span></div>
-<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="CSS"/><span>CSS3</span></div>
-<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS"/><span>JavaScript</span></div>
-<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap"/><span>Bootstrap</span></div>
-<div class="skill"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40" height="40">
-    <circle cx="256" cy="256" r="256" fill="#88CE02"/>
-    <text x="50%" y="55%" text-anchor="middle" fill="#fff" font-size="140" font-family="Arial" dy=".3em">GS</text>
-  </svg>
-  <span>GSAP</span></div>
-<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node"/><span>Node</span></div>
-<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"/><span>React</span></div>
-<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"/><span>GitHub</span></div>
-<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg" alt="Netlify"/><span>Netlify</span></div>
-<div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"/><span>Figma</span></div>
-</div>
-</section>
-
-
-<!-- CONTACT -->
-<section id="contact" class="section contact container">
-<h2 class="title center">Contact</h2>
-<div class="contact-grid">
-<div class="contact-card">
-<h3>Say Hello</h3>
-<p class="muted">Open for freelance & collaborations.</p>
-<a class="contact-item" href="tel:03161313927">📞 0316‑1313927</a>
-<a class="contact-item" href="https://wa.me/923161313927" target="_blank">💬 WhatsApp</a>
-</div>
-<div class="contact-card">
-<h3>Profiles</h3>
-<a class="contact-item" target="_blank" href="https://www.linkedin.com/">in / Sakina‑Memon</a>
-<a class="contact-item" target="_blank" href="https://github.com/Usaidrazamemon/Sakinamemon.git">GitHub / Projects</a>
-<a class="contact-item" target="_blank" href="mailto:memonusaidraza71@gmail.com">✉️ memonusaidraza71@gmail.com</a>
-</div>
-</div>
-</section>
-
-
-<footer class="footer">
-<div class="container">
-<p>© <span id="year"></span> Sakina Memon. Crafted with ❤ and GSAP.</p>
-</div>
-</footer>
-</main>
-
-
-<!-- GSAP -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
-<script src="script.js" defer></script>
-</body>
 </html>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sakina Memon — Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="dark">
+  <!-- NAVBAR -->
+  <header class="nav-wrap">
+    <nav class="container nav" style="padding-left: 30px;">
+      <a href="#home" class="brand">
+        <span class="dot"><img src="imge/sak log.png" alt=""></span>
+        <span class="brand-text">sakina <b>memon</b></span>
+      </a>
+      <ul class="links">
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#services">services</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="https://www.figma.com/proto/wOUAYwQP7rv9GbfborZpdM?node-id=0-1&t=tfYdjjUZBl2jvIKg-6">contact</a>
+        </li>
+      </ul>
+      <a href="#contact" class="btn hire">Hire me</a>
+      <button aria-label="menu" class="menu-btn"><span></span><span></span><span></span></button>
+      <button id="theme-toggle" class="theme-btn">🌙</button>
+    </nav>
+  </header>
+
+
+  <main id="home">
+    <!-- ABOUT / HERO -->
+    <section id="about" class="section about container">
+      <div class="about-text">
+        <h1 class="title">About</h1>
+        <p>
+          Hi, I'm <b>Sakina Memon</b> — a passionate Web Developer dedicated to creating modern, responsive and visually
+          engaging
+          websites. I blend clean code with creative design to deliver seamless user experiences. I focus on building
+          fast,
+          functional and attractive digital products that bring ideas to life and leave a lasting impact.
+        </p>
+        <div class="about-cta">
+          <a class="btn primary" href="#projects">See Projects</a>
+          <a class="btn ghost" href="#contact">Let's Talk</a>
+        </div>
+      </div>
+      <div class="about-media">
+        <div class="avatar-wrap">
+          <!-- Replace src with your own image -->
+          <img class="about-pic" src="imge/sakina logo.png" alt="Sakina portrait" />
+          <span class="ring"></span>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="section services container">
+      <h2 class="title center">Services</h2>
+      <div class="grid cards-3">
+        <article class="card service">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+          <h3>SPA / Front‑End</h3>
+          <p>Modern, responsive React front‑ends with reusable components, state management and API integration.</p>
+        </article>
+        <article class="card service">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" />
+          <h3>UI / UX & Figma</h3>
+          <p>Wireframes, design systems and prototypes in Figma. Pixel‑perfect implementation with accessibility in
+            mind.</p>
+        </article>
+        <article class="card service">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node" />
+          <h3>Web Apps</h3>
+          <p>Full‑stack web apps with Node/Express, clean APIs, auth and deployment on Netlify / Vercel.</p>
+        </article>
+      </div>
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects container">
+      <h2 class="title center">Projects</h2>
+      <div class="grid cards-3 project-grid">
+        <!-- Repeatable project card -->
+        <article class="card project">
+          <div class="thumb"><img src="imge/project1 pic.jpg" id="p1" alt="project 1" /></div>
+          <h3>Go Globel Adventure</h3>
+          <p>A travel-themed website built with HTML, CSS, JS, and smooth GSAP animations for an
+            interactive and dynamic experience.</p>
+          <a class="btn tiny" target="_blank" href="https://usaidrazamemon.github.io/travelAdventurewebsite/">Live</a>
+        </article>
+        <article class="card project">
+          <div class="thumb"><img src="imge/Project two pic.jpg" alt="project 2" /></div>
+          <h3>Health Care Center</h3>
+          <p>It is build on Html css and bootstrap and fully responsive on small devices wit best UI design</p>
+          <a class="btn tiny" target="_blank" href="https://usaidrazamemon.github.io/final-website/">Live</a>
+        </article>
+        <article class="card project">
+          <div class="thumb"><img src="https://picsum.photos/seed/p3/600/400" alt="project 3" /></div>
+          <h3>Project Three</h3>
+          <p>E‑commerce concept with smooth page transitions and cart logic.</p>
+          <a class="btn tiny" target="_blank" href="#">Live</a>
+        </article>
+      </div>
+    </section>
+
+<!-- Figma Projects -->
+
+ <section id="projects" class="section projects container">
+      <h2 class="title center"> UI UX Projects (Figma Designs)</h2>
+      <div class="grid cards-3 project-grid">
+ <article class="card project">
+          <div class="thumb"><img src="imge/figma pro1.png" alt="project 3" /></div>
+          <h3>Food Recepie</h3>
+          <p>Designing clean and user-friendly interfaces that turn ideas into engaging digital experiences.</p>
+          <a class="btn tiny" target="_blank" href="https://www.figma.com/proto/V7Vj8qaLbxYEblR5eOZcjh/Untitled?node-id=28-3&p=f&t=CLKgzVF3HkZxoUrL-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2">Live</a>
+        </article>
+         <article class="card project">
+          <div class="thumb"><img src="imge/figna pro 2.png" alt="project 3" /></div>
+          <h3>movie</h3>
+          <p>Designing clean and user-friendly interfaces that turn ideas into engaging digital experiences.</p>
+          <a class="btn tiny" target="_blank" href="https://www.figma.com/proto/wOUAYwQP7rv9GbfborZpdM/Untitled?node-id=1-12&p=f&t=CLKgzVF3HkZxoUrL-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1">Live</a>
+        </article>
+         <article class="card project">
+          <div class="thumb"><img src="imge/figma pro 3.png" alt="project 3" /></div>
+          <h3>Dawat e islami</h3>
+          <p>Designing clean and user-friendly interfaces that turn ideas into engaging digital experiences.</p>
+          <a class="btn tiny" target="_blank" href="https://www.figma.com/proto/kOy2m52zWkwYXSvQ7hqXqO/Untitled?node-id=1-2&p=f&t=EWNjbGJ9Bq9doT5R-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2">Live</a>
+        </article>
+
+
+
+
+         </div>
+    </section>
+    <!-- SKILLS -->
+    <section id="skills" class="section skills container">
+      <h2 class="title center">Skills</h2>
+      <div class="skills-row">
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+            alt="HTML" /><span>HTML5</span></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+            alt="CSS" /><span>CSS3</span></div>
+        <div class="skill"><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            alt="JS" /><span>JavaScript</span></div>
+        <div class="skill"><img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+            alt="Bootstrap" /><span>Bootstrap</span></div>
+        <div class="skill"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40" height="40">
+            <circle cx="256" cy="256" r="256" fill="#88CE02" />
+            <text x="50%" y="55%" text-anchor="middle" fill="#fff" font-size="140" font-family="Arial"
+              dy=".3em">GS</text>
+          </svg>
+          <span>GSAP</span>
+        </div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+            alt="Node" /><span>Node</span></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            alt="React" /><span>React</span></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            alt="GitHub" /><span>GitHub</span></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg"
+            alt="Netlify" /><span>Netlify</span></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+            alt="Figma" /><span>Figma</span></div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact container">
+      <h2 class="title center">Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Say Hello</h3>
+          <p class="muted">Open for freelance & collaborations.</p>
+          <a class="contact-item" href="tel:03161313927">📞 0316‑1313927</a>
+          <a class="contact-item" href="https://wa.me/923161313927" target="_blank">💬 WhatsApp</a>
+        </div>
+        <div class="contact-card">
+          <h3>Profiles</h3>
+          <a class="contact-item" target="_blank" href="https://www.linkedin.com/">in / Sakina‑Memon</a>
+          <a class="contact-item" target="_blank" href="https://github.com/Usaidrazamemon/Sakinamemon.git">GitHub /
+            Projects</a>
+          <a class="contact-item" target="_blank" href="mailto:memonusaidraza71@gmail.com">✉️
+            memonusaidraza71@gmail.com</a>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Sakina Memon. Crafted with ❤ and GSAP.</p>
+      </div>
+    </footer>
+  </main>
+  <h1>sakina</h1>
+
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+
+</html>

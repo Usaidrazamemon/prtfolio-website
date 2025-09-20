@@ -43,9 +43,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
         // Change button icon
         if (document.body.classList.contains('dark')) {
-            themeBtn.textContent = '☀️';
-        } else {
             themeBtn.textContent = '🌙';
+        } else {
+            themeBtn.textContent = '☀️';
         }
 
         // Smooth GSAP color transition
